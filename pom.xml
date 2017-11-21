@@ -3,7 +3,7 @@
   <groupId>jvm-opencv</groupId>
   <artifactId>lein-template</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.5</version>
+  <version>0.0.7</version>
   <name>lein-template</name>
   <description>Created with lein-create-template</description>
   <url>http://example.com/FIXME</url>
@@ -14,11 +14,10 @@
     </license>
   </licenses>
   <scm>
+    <url>https://github.com/hellonico/jvm-opencv</url>
     <connection>scm:git:git://github.com/hellonico/jvm-opencv.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/hellonico/jvm-opencv.git</developerConnection>
-    <tag>f7401041a9d8010544f0172963439ffc3560a76f
-</tag>
-    <url>https://github.com/hellonico/jvm-opencv</url>
+    <tag>4a880f1420098041b80ff6a40cc1c4523389d9a9</tag>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -50,7 +49,7 @@
     </repository>
     <repository>
       <id>clojars</id>
-      <url>https://clojars.org/repo/</url>
+      <url>https://repo.clojars.org/</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
