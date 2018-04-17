@@ -1,6 +1,6 @@
-(defproject jvm-opencv/lein-template "0.0.10"
+(defproject jvm-opencv/lein-template "0.0.11-SNAPSHOT"
   :description "Created with lein-create-template"
-  :deploy-repositories [["releases" :clojars]]
+  ; :deploy-repositories [["releases" :clojars]]
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
