@@ -15,7 +15,7 @@
 ["gradlew" (render "gradlew")]
 ["gradlew.bat" (render "gradlew.bat")]
 ["build.gradle" (render "build.gradle")]
-["gradle-wrapper.properties" (render "gradle/wrapper/gradle-wrapper.properties")]
+["gradle/wrapper/gradle-wrapper.properties" (render "gradle-wrapper.properties")]
 ["settings.gradle" (render "settings.gradle" data)]
 ["java/HelloCv.java" (render "java/HelloCv.java")]
 )))
