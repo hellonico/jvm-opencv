@@ -12,10 +12,10 @@
     	; ["src/{{sanitized}}/core.clj" (render "src/leinin/core.clj" data)]
 		; ["test/{{sanitized}}/core_test.clj" (render "test/leinin/core_test.clj" data)]
 ["project.clj" (render "project.clj" data)]
-["gradlew" (render "gradlew")]
-["gradlew.bat" (render "gradlew.bat")]
+; ["gradlew" (render "gradlew")]
+; ["gradlew.bat" (render "gradlew.bat")]
 ["build.gradle" (render "build.gradle")]
-["gradle/wrapper/gradle-wrapper.properties" (render "gradle-wrapper.properties")]
+; ["gradle/wrapper/gradle-wrapper.properties" (render "gradle-wrapper.properties")]
 ["settings.gradle" (render "settings.gradle" data)]
 ["java/HelloCv.java" (render "java/HelloCv.java")]
 )))
