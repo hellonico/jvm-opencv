@@ -12,6 +12,7 @@
     	; ["src/{{sanitized}}/core.clj" (render "src/leinin/core.clj" data)]
 		; ["test/{{sanitized}}/core_test.clj" (render "test/leinin/core_test.clj" data)]
 ["project.clj" (render "project.clj" data)]
+["java_sample.ipynb" (render "java_sample.ipynb" data)]
 ; ["gradlew" (render "gradlew")]
 ; ["gradlew.bat" (render "gradlew.bat")]
 ["build.gradle" (render "build.gradle" data)]
