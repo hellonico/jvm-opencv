@@ -15,6 +15,7 @@
 ; ["gradlew" (render "gradlew")]
 ; ["gradlew.bat" (render "gradlew.bat")]
 ["build.gradle" (render "build.gradle")]
+["pom.xml" (render "pom.xml")]
 ; ["gradle/wrapper/gradle-wrapper.properties" (render "gradle-wrapper.properties")]
 ["settings.gradle" (render "settings.gradle" data)]
 ["java/HelloCv.java" (render "java/HelloCv.java")]
