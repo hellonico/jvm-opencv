@@ -2,6 +2,7 @@
   (:use [leiningen.new.templates :only [renderer name-to-path sanitize-ns ->files]]))
 
 (def render (renderer "jvm-opencv"))
+(def raw (raw-resourcer "clj-opencv"))
 
 (defn jvm-opencv
   [name]
