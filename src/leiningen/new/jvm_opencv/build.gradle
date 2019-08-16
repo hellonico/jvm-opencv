@@ -16,7 +16,7 @@ sourceSets {
 }
 
 dependencies {
-    compile 'origami:origami:4.1.1-1'
+    compile 'origami:origami:4.1.1-3'
     testCompile 'junit:junit:4.12'
 }
 
