@@ -16,8 +16,8 @@ sourceSets {
 }
 
 dependencies {
-    compile 'origami:origami:{{version}}'
-    testCompile 'junit:junit:4.12'
+    implementation 'origami:origami:{{version}}'
+    testImplementation 'junit:junit:4.12'
 }
 
 // In this section you declare where to find the dependencies of your project
@@ -25,7 +25,10 @@ repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
-      maven {
+    maven {
         url "https://repository.hellonico.info/repository/hellonico/"
+    }
+    maven {
+        url "https://repo.clojars.org/"
     }
 }
