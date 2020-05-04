@@ -7,7 +7,7 @@
 (defn jvm-opencv
   [name]
   (let [data {:name name
-              :version "4.3.0-1"
+              :version "4.3.0-7"
               :ns-name (sanitize-ns name)
               :sanitized (name-to-path name)}]
     (->files data 

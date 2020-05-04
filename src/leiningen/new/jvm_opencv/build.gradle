@@ -17,6 +17,8 @@ sourceSets {
 
 dependencies {
     implementation 'origami:origami:{{version}}'
+    implementation 'origami:filters:1.11'
+    implementation 'origami:youtube:1.0.0'
     testImplementation 'junit:junit:4.12'
 }
 
