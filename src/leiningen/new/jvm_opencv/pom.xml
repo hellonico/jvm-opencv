@@ -60,6 +60,16 @@
   </build>
   <repositories>
     <repository>
+      <id>jitpack</id>
+      <url>https://jitpack.io</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </repository>
+    <repository>
       <id>central</id>
       <url>https://repo1.maven.org/maven2/</url>
       <snapshots>

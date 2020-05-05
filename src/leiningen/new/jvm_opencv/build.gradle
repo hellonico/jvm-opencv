@@ -33,4 +33,5 @@ repositories {
     maven {
         url "https://repo.clojars.org/"
     }
+     maven { url "https://jitpack.io" }
 }

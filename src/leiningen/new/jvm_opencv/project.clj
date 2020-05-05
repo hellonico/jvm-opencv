@@ -3,6 +3,12 @@
   :main HelloCv
   :plugins [[lein-auto "0.1.3"]]
   :auto {:default {:file-pattern #"\.(java)$"}}
-  :repositories [["vendredi" "https://repository.hellonico.info/repository/hellonico/"]]
+  :repositories [
+    ["vendredi" "https://repository.hellonico.info/repository/hellonico/"]
+    ["jitpack" "https://jitpack.io"]
+    ]
   :dependencies [[org.clojure/clojure "1.10.0"]
-                 [origami/origami "{{version}}"]])
+                 [origami/origami "{{version}}"]
+                 [origami/filters "1.11"]
+                 [origami/youtube "1.0.0"]
+                 ])
