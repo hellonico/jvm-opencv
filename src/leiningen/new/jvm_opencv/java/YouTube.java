@@ -7,7 +7,7 @@ public class YouTube {
 
     public static void main(String[] args) throws InterruptedException, ClassNotFoundException {
         Origami.init();
-        Class.forName(YouTube.class.getName());
+        Class.forName(origami.video.YouTubeHandler.class.getName());
         final String input = args.length > 0 ? args[0] : "youtube://PnqzVkPDUHQ";
         Filter f = new Grayscale();
         new Camera().device(input).filter(f).run();
