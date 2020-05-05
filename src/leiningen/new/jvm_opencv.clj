@@ -22,5 +22,7 @@
 ; ["gradle/wrapper/gradle-wrapper.properties" (render "gradle-wrapper.properties")]
 ["settings.gradle" (render "settings.gradle" data)]
 ["java/HelloCv.java" (render "java/HelloCv.java")]
+["java/Webcam.java" (render "java/Webcam.java")]
+["java/YouTube.java" (render "java/YouTube.java")]
 ["marcel.jpg" (raw "marcel.jpg")]
 )))
