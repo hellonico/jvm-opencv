@@ -104,5 +104,15 @@
       <artifactId>origami</artifactId>
       <version>{{version}}</version>
     </dependency>
+    <dependency>
+      <groupId>origami</groupId>
+      <artifactId>sources</artifactId>
+      <version>{{version-sources}}</version>
+    </dependency>
+    <dependency>
+      <groupId>origami</groupId>
+      <artifactId>filters</artifactId>
+      <version>{{version-filters}}</version>
+    </dependency>
   </dependencies>
 </project>
