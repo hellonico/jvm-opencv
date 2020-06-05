@@ -26,4 +26,6 @@
              ["java/HelloCv.java" (render "java/HelloCv.java")]
              ["java/Webcam.java" (render "java/Webcam.java")]
              ["java/YouTube.java" (render "java/YouTube.java")]
-             ["marcel.jpg" (raw "marcel.jpg")])))
+             ["java/AgeNet.java" (render "java/AgeNet.java")]
+             ["marcel.jpg" (raw "marcel.jpg")]
+             ["jeunehomme.jpg" (raw "jeunehomme.jpg")])))
